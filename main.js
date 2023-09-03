@@ -46,7 +46,7 @@ ok = 15
     ok = 15
 
 } else{
-    alert("¡Alguno de los datos ingresados es no es correcto!") //Este alert sirve para avisar al usuario que escribió con alguna falta de ortografia el nombre de la moneda.
+    alert("¡Alguno de los datos ingresados no es correcto!") //Este alert sirve para avisar al usuario que escribió con alguna falta de ortografia el nombre de la moneda.
     ok = 10
     
     
