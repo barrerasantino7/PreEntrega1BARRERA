@@ -1,0 +1,2 @@
+Este proyecto busca generar un sistema de cambio de monedas donde el usuario ingresa el nombre de la moneda que quiere y después ingresa la cantidad de pesos argentinos que tiene para convertir.
+El sistema se repetirá las veces que sea necesario si el usuario escribe mal el nombre de una moneda y terminará dando el resultado del calculo.

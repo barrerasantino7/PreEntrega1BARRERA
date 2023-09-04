@@ -1,4 +1,3 @@
-//Este proyecto busca generar un sistema de cambio de monedas donde el usuario ingresa el nombre de la moneda que quiere y después ingresa la cantidad de pesos argentinos que tienen para converir.
 //Monedas disponibles.
 const dolar = 740;
 const euro = 379.51;
@@ -7,7 +6,7 @@ const pesoUru = 9.31;
 const yuan = 48.22;
 const realBr = 71.12;
 
-//Variables que establecerá el usurario.
+//Variables que establecerá el usuario.
 let pesoArg
 let moneda
 
@@ -22,27 +21,27 @@ moneda = prompt("Elija una de las monedas que quieras convertir a Pesos Argentin
 pesoArg = prompt("Ingresa la cantidad de pesos argentinos que tengas y quieras convertir.")
 
 if (moneda == "dolar"){
-console.log(convertir(pesoArg, dolar));
+alert("Tienes " + convertir(pesoArg, dolar) + " dolares");
 ok = 15
 
 }else if (moneda == "euro"){
-    console.log(convertir(pesoArg, euro));
+    alert("Tienes " + convertir(pesoArg, euro) + " euros");
     ok = 15
 
 }else if (moneda == "peso mexicano"){
-    console.log (convertir(pesoArg, pesoMex)); 
+    alert ("Tienes " + convertir(pesoArg, pesoMex) + " pesos mexicanos"); 
     ok = 15
 
 }else if (moneda == "peso uruguayo"){
-    console.log(convertir(pesoArg, pesoUru));
+    alert("Tienes " + convertir(pesoArg, pesoUru) + " pesos uruguayos");
     ok = 15
 
 }else if (moneda == "yuan"){
-    console.log(convertir(pesoArg, yuan)); 
+    alert("Tienes " + convertir(pesoArg, yuan) + " yuanes"); 
     ok = 15
 
 }else if (moneda == "real"){
-    console.log(convertir(pesoArg, realBr)); 
+    alert("Tienes " + convertir(pesoArg, realBr) + " reales"); 
     ok = 15
 
 } else{
